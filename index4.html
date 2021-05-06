@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta character="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Responsive table</title>
+<style>
+   body{
+       font-family: Arial,sans-serif;
+   }
+   table{
+    border: 1px solid rgb(0,0,0);   
+    width: 100%;
+    font-family: arial;
+    background-color:blueviolet;
+    }
+    th,td{
+    text-align: center;
+    padding: 8px;
+    }
+    .responsive-iframe{
+        width: 100%;
+        margin: auto;
+        border: none;
+    }
+    .table{
+        width: 100%;
+        overflow-x: auto;
+    }
+    .bgimage{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-attachment: fixed;
+        background-color:grey(255,255,255,0.445);
+        background-blend-mode: oerlay;
+        background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+        background-position: center;
+        background-size: cover
+    }
+    </style>
+</head>    
+<body>
+        <h1>RESPONSIVE HTML TABLE</h1>
+        <section id="TABLE">
+        <div style="overflow-x: auto;">
+        <table cellpadding=5 cellpadding=5 align="center" border="6">
+        <tr>
+            <th>S.NO</th>
+            <th>NAMES</th>
+            <th>REGNO</th>
+            <th>MARKS</th>
+            <th>AVERAGES</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kaviya</td>
+            <td>111</td>
+            <td>450</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Priyanga</td>
+            <td>112</td>
+            <td>444</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Sushmitha</td>
+            <td>113</td>
+            <td>402</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Yakavi</td>
+            <td>114</td>
+            <td>425</td>
+            <td>85</td>
+            
+        </tr>
+
+    </table>
+</div>
+</section>
+<br><br><br>
+    <h3>Iframe</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.693236365592!2d80.2092777144618!3d12.991461990842852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267605ee1d36d%3A0x7238e42c0f415836!2sTNHB%20Colony%2C%20Velachery%2C%20Chennai%2C%20Tamil%20Nadu%20600042!5e0!3m2!1sen!2sin!4v1620285694231!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<br><br><br>
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/ch45WY6oiYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br>
+    <h3>Background image</h3>
+    <section class="bgimage">
+       <h1>NATURE</h1>
+       </section>
+       </body>
+       </html>
